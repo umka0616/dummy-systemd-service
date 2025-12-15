@@ -1,0 +1,12 @@
+[0;1;32m●[0m dummy.service - Dummy Background Service
+     Loaded: loaded (/etc/systemd/system/dummy.service; disabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Mon 2025-12-15 12:48:48 CET; 6s ago
+   Main PID: 8197 (dummy.sh)
+      Tasks: 2 (limit: 9475)
+     Memory: 560.0K
+        CPU: 10ms
+     CGroup: /system.slice/dummy.service
+             ├─8197 /bin/bash /usr/local/bin/dummy.sh
+             └─8199 sleep 10
+
+Dec 15 12:48:48 vmi2968149 systemd[1]: Started Dummy Background Service.
